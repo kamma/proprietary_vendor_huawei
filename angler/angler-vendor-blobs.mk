@@ -36,11 +36,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/huawei/angler/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/huawei/angler/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/huawei/angler/proprietary/bin/InputEventFind:system/bin/InputEventFind \
     vendor/huawei/angler/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/angler/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/huawei/angler/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/huawei/angler/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/huawei/angler/proprietary/bin/mm-qjpeg-dec-test:system/bin/mm-qjpeg-dec-test \
     vendor/huawei/angler/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
     vendor/huawei/angler/proprietary/bin/mm-qomx-idec-test:system/bin/mm-qomx-idec-test \
@@ -131,4 +129,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/huawei/angler/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/huawei/angler/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/huawei/angler/proprietary/xbin/wlutil:system/xbin/wlutil
+    vendor/huawei/angler/proprietary/xbin/wlutil:system/xbin/wlutil \
+    vendor/huawei/angler/bootanimation/bootanimation.zip:system/media/bootanimation.zip
